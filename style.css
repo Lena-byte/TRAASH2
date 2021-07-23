@@ -309,10 +309,11 @@ footer img{
   
 }
 .row .column{
-  flex: 100%;
+  flex: 50%;
 }
 .row .column img{
   filter: grayscale(0) brightness(80%); 
+ 
 }
 
 }
