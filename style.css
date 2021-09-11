@@ -7,7 +7,6 @@
 body
 {
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 /*------*{outline: 1px solid green;
 	}--------*/
@@ -256,7 +255,6 @@ footer{
 }
 footer img{
   height:50px;
-
 }
 footer .space{
   margin-bottom: 20px;
