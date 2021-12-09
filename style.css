@@ -4,9 +4,27 @@
   padding: 0;
   box-sizing: border-box;
  }
-body
-{
+body{
   overflow-x: hidden;
+}
+/*------transition--------*/
+
+.transition-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  background-color: #111;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease-out;
+}
+
+.transition-1.is-active {
+  pointer-events: all;
+  opacity: 1;
 }
 /*------*{outline: 1px solid green;
 	}--------*/
@@ -73,7 +91,6 @@ height: 37px;
   font-size: 20px;
   font-weight: 600;
 }
-
 
 /*============= Work & About section =============*/
 .heading{
