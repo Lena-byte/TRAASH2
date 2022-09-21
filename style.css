@@ -92,11 +92,20 @@ height: 37px;
   font-weight: 600;
 }
 
-/*============= Work & About section =============*/
+/*============= Overview & About section =============*/
 .heading{
   padding-bottom: 2rem;
 }
+.field img{
+  width: 100%; 
+  margin: -40px 0px 5px 20px; 
 
+}
+.synedrio img {
+  width: 55%; 
+  float: right;
+  margin: 10px 0 5px 20px; 
+}
 .Xartis img {
     width: 36%; 
     float: left;
@@ -130,15 +139,9 @@ height: 37px;
   margin: 1.5rem auto;
   padding-top: 2rem;
 }
-.narrow1 {
-  width: 70%;
-  margin: -60px auto 20px auto;
-}
 
-.stili{
-  white-space: pre-wrap; 
-  margin-bottom: -50px;
-}
+
+
   
 .narrow h1 {
     font-size: 2rem;
@@ -311,14 +314,8 @@ footer .space{
   margin: 0 auto;
   margin: 0 0 10px 0;
 }
-.narrow1 {
-  width: 80%;
-  margin: 24px  auto;
-}
-.stili{
-  white-space: normal;
-  margin-bottom: 0;
-}
+
+
 
 footer img{
   height: 35px;; 
@@ -339,14 +336,8 @@ footer img{
     height:40px;   
   }
   
-  .narrow1 {
-    width: 80%;
-    margin: 24px  auto;
-  }
-  .stili{
-  white-space: normal;
-  margin-bottom: 0;
-}
+
+  
 
 
 }
