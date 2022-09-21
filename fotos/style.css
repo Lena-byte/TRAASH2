@@ -4,10 +4,27 @@
   padding: 0;
   box-sizing: border-box;
  }
-body
-{
+body{
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/*------transition--------*/
+
+.transition-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  background-color: #111;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease-out;
+}
+
+.transition-1.is-active {
+  pointer-events: all;
+  opacity: 1;
 }
 /*------*{outline: 1px solid green;
 	}--------*/
@@ -75,12 +92,20 @@ height: 37px;
   font-weight: 600;
 }
 
-
-/*============= Work & About section =============*/
+/*============= Overview & About section =============*/
 .heading{
   padding-bottom: 2rem;
 }
+.field img{
+  width: 100%; 
+  margin: -40px 0px 5px 20px; 
 
+}
+.synedrio img {
+  width: 55%; 
+  float: right;
+  margin: 10px 0 5px 20px; 
+}
 .Xartis img {
     width: 36%; 
     float: left;
@@ -114,15 +139,9 @@ height: 37px;
   margin: 1.5rem auto;
   padding-top: 2rem;
 }
-.narrow1 {
-  width: 70%;
-  margin: -60px auto 20px auto;
-}
 
-.stili{
-  white-space: pre-wrap; 
-  margin-bottom: -50px;
-}
+
+
   
 .narrow h1 {
     font-size: 2rem;
@@ -256,7 +275,6 @@ footer{
 }
 footer img{
   height:50px;
-
 }
 footer .space{
   margin-bottom: 20px;
@@ -296,14 +314,8 @@ footer .space{
   margin: 0 auto;
   margin: 0 0 10px 0;
 }
-.narrow1 {
-  width: 80%;
-  margin: 24px  auto;
-}
-.stili{
-  white-space: normal;
-  margin-bottom: 0;
-}
+
+
 
 footer img{
   height: 35px;; 
@@ -324,14 +336,8 @@ footer img{
     height:40px;   
   }
   
-  .narrow1 {
-    width: 80%;
-    margin: 24px  auto;
-  }
-  .stili{
-  white-space: normal;
-  margin-bottom: 0;
-}
+
+  
 
 
 }
