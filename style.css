@@ -307,6 +307,9 @@ footer .space{
   padding: 8px 16px;
   font-size: 16px;
 }
+.narrow {
+  width: 95%;
+}
 .narrow h1{
   font-size: 23px;
 }
