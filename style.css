@@ -92,6 +92,18 @@ height: 37px;
   font-weight: 600;
 }
 
+
+.narrow {
+  width: 80%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow2 {
+  width: 80%;
+  margin: 0 auto 1rem auto;
+  padding-top: 0rem;
+}
+
 /*============= Overview & About section =============*/
 .heading{
   padding-bottom: 2rem;
@@ -99,13 +111,51 @@ height: 37px;
 .field img{
   width: 100%; 
   margin: -40px 0px 5px 0px; 
+}
 
-}
-.synedrio img {
-  width: 55%; 
-  float: right;
-  margin: 10px 0 5px 20px; 
-}
+.responsive-youtube{
+  overflow:hidden; padding-bottom:56.25%; position:relative; height:0;
+  }
+  
+  .responsive-youtube iframe{
+  left:0; top:0; height:100%; width:100%; position:absolute;
+  }
+
+  .btn-default {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    color: #f75f31;
+    border-radius: 0;
+  }
+  .btn-default:hover {
+    color: gray;
+  }
+  .narrow h1 {
+      font-size: 2rem;
+      color: #f75f31;
+    }
+  
+  .btn-secondary {
+    border-width: small;
+    border-radius: 0;
+    padding: .4rem 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-color: #f75f31;
+    background-color: #f75f31;
+    color: white;
+  }
+  
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+    border-color: #6e2b0e;
+    background-color: #6e2b0e;
+    color: white;
+  }
+  
+  
 .Xartis img {
     width: 36%; 
     float: left;
@@ -134,53 +184,6 @@ height: 37px;
   color: #f75f31;
 }
 
-.narrow {
-  width: 80%;
-  margin: 1.5rem auto;
-  padding-top: 2rem;
-}
-
-.btn-default {
-  padding: 0;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  color: #f75f31;
-  border-radius: 0;
-}
-.btn-default:hover {
-  color: gray;
-}
-.narrow h1 {
-    font-size: 2rem;
-    color: #f75f31;
-  }
-
-.btn-secondary {
-  border-width: small;
-  border-radius: 0;
-  padding: .4rem 1rem;
-  font-size: 1rem;
-  text-transform: uppercase;
-  border-color: #f75f31;
-  background-color: #f75f31;
-  color: white;
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus {
-  border-color: #6e2b0e;
-  background-color: #6e2b0e;
-  color: white;
-}
-
-.responsive-youtube{
-overflow:hidden; padding-bottom:56.25%; position:relative; height:0;
-}
-
-.responsive-youtube iframe{
-left:0; top:0; height:100%; width:100%; position:absolute;
-}
 
 
 /*----------pictures section-----------*/
@@ -316,6 +319,9 @@ footer .space{
   font-size: 16px;
 }
 .narrow {
+  width: 95%;
+}
+.narrow2 {
   width: 95%;
 }
 .narrow h1{
