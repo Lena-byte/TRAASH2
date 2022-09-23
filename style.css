@@ -319,6 +319,18 @@ footer .space{
   display: block;
   margin: 0 0 10px 0;
 }
+.conference img {
+  width: 100%;
+  float: none;
+  display: block;
+  margin: 0 0 10px 0;
+}
+#works img {
+  width: 100%;
+  float: none;
+  display: block;
+  margin: 0 0 10px 0;
+}
 #AbderaHistory img{
   width: 90%;
   float: none;
