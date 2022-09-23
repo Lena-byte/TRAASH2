@@ -140,9 +140,17 @@ height: 37px;
   padding-top: 2rem;
 }
 
-
-
-  
+.btn-default {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  color: #f75f31;
+  border-radius: 0;
+}
+.btn-default:hover {
+  color: gray;
+}
 .narrow h1 {
     font-size: 2rem;
     color: #f75f31;
