@@ -1,11 +1,11 @@
 window.onload = () => { 
   const transition_el = document.querySelector('.transition');
-  const anchors = document.querySelectorAll('li:not(.dropdown):not(.dropdown-item)');
+  const anchors = document.querySelectorAll('.nav-item:not(.dropdown):not(.dropdown-item)');
 
 
   setTimeout(() => {
     transition_el.classList.remove('is-active');
-  }, 500);
+  }, 300);
 
   for (let i = 0; i < anchors.length; i++) {
     const anchor = anchors[i];
@@ -21,7 +21,7 @@ window.onload = () => {
           
           window.location.href = target;
           transition_el.classList.remove('is-active');
-        }, 500);
+        }, 300);
         
     });
   }

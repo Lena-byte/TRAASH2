@@ -19,7 +19,7 @@ body{
   background-color: #111;
   opacity: 0;
   pointer-events: none;
-  transition: 0.5s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .transition-1.is-active {
@@ -42,7 +42,6 @@ body{
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 1.6px;
-/*----background: #000000 !important;-----*/
 }
 
 .navbar-brand img{
@@ -56,10 +55,7 @@ height: 37px;
   padding-left: 0;
 }
 
-/*----.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link:hover{
-  color: #f75f31;
-}--------*/
+
 
 /*--------entry page-------*/
 
@@ -184,7 +180,16 @@ height: 37px;
   color: #f75f31;
 }
 
-
+hr {
+  color: #f75f31;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
 
 /*----------pictures section-----------*/
 .carousel-item {
@@ -286,9 +291,36 @@ height: 100%;
   border-radius: 5px;
   transition: 0.3s linear;
 }
-
 .row .column img:hover{
   filter: grayscale(0) brightness(1);  
+}
+
+.row .omadaPics{
+  flex: 25%;
+  width: 100px;
+  /* overflow: hidden; */
+  padding: 0 4px;
+  height: 100%; 
+  text-align: center;   
+}
+.row .omadaPics img{
+  margin-top: 2px;
+  margin-bottom: 3px;
+  padding-bottom: 10px;
+  width: 50%;
+  cursor: pointer;
+  filter: grayscale(1) brightness(90%);
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+.row .omadaPics img:hover{
+  filter: grayscale(0) brightness(1);  
+}
+.name{
+  color: #f75f31;
+}
+.desc{
+  padding-bottom: 50px;
 }
 
 /*--------footer section-----------*/
